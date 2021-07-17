@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  width: 1230px;
+  height: 56px;
+  left: 30px;
+  top: 30px;
+    input {
+      position: absolute;
+      top: calc(50% - 56px/2);
+      width: 985px;
+      height: 56px;
+      background: $grey-100 url("../../img/search.svg") 17.17px 17.17px no-repeat;
+        &::placeholder {
+          position: absolute;
+          width: 62px;
+          height: 23px;
+          left: 46px;
+          top: calc(50% - 23px/2 + 0.5px);
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          color: #818386;
+        }
+    }
+    .header__button--message {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      right: 169px;
+      background-color: $grey-100;
+    }
+    .header__button--notifications {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      right: 97px;
+      background-color: $grey-100;
+    }
+    .header__button--avatar {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      right: 0px;
+      background-color: $body-color;
+    }
+    span {
+      position: absolute;
+      width: 1px;
+      height: 32px;
+      right: 76px;
+      top: 12px;
+      background: #E1E3E6;
+    }
+  }
